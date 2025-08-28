@@ -4,7 +4,7 @@
 
 Este projeto foi desenvolvido para o **Desafio de Agentes Conversacionais da Gobots**, implementando um sistema multiagente para análise automatizada de avaliações de restaurantes. Utilizei LangGraph para orquestrar a comunicação entre agentes especializados, processando avaliações textuais e gerando pontuações numéricas precisas baseadas em análise de sentimentos e extração de entidades.
 
-**Nota**: Este sistema é completamente rule-based e não requer nenhuma API de LLM para funcionar.
+**Nota**: Este sistema é completamente rule-based e não requer nenhuma API para funcionar.
 
 ## Arquitetura da Solução
 
@@ -109,28 +109,32 @@ Esta fórmula penaliza mais a qualidade da comida (elevada ao quadrado) que o at
 
 ## Como Executar
 
-# Clone o repositório
-$ git clone https://github.com/hparreao/desafio-gobots.git
-$ cd desafio-gobots
+1. **Clone o repositório**:
+```bash
+git clone https://github.com/hparreao/desafio-gobots.git
+```
+```bash
+cd desafio-gobots
+```
 
-1. **Criar e ativar ambiente virtual**:
+2. **Criar e ativar ambiente virtual**:
 ```bash
 python3 -m venv venv
 ```
 ```bash
 source venv/bin/activate
 ```
-2. **Instalação**:
+3. **Instalação**:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Execução**:
+4. **Execução**:
 ```bash
 python solucao.py "Qual é a avaliação média do Bob's?"
 ```
 
-4. **Testes**:
+5. **Testes**:
 ```bash
 python teste.py
 ```
@@ -152,4 +156,4 @@ A solução implementa todos os requisitos do desafio Gobots, oferecendo:
 - **Robustez**: Estado compartilhado elimina problemas de sincronização  
 - **Precisão**: Passa em todos os testes com pontuações exatas
 - **Extensibilidade**: Fácil adição de novos agentes especializados
-- **Independência de LLM**: Sistema completamente rule-based, não requer APIs externas
+- **Independência**: Sistema completamente rule-based, não requer APIs externas
