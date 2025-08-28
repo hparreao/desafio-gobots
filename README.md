@@ -108,6 +108,11 @@ Score = Σ(√(food_score² × service_score)) × (1/(N × √125)) × 10
 Esta fórmula penaliza mais a qualidade da comida (elevada ao quadrado) que o atendimento, refletindo a importância relativa na experiência gastronômica.
 
 ## Como Executar
+
+# Clone o repositório
+$ git clone https://github.com/hparreao/desafio-gobots.git
+$ cd desafio-gobots
+
 1. **Criar e ativar ambiente virtual**:
 ```bash
 python3 -m venv venv
