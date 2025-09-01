@@ -2,9 +2,6 @@
 
 *Sistema multiagente para análise automatizada de avaliações*
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![LangGraph]([https://img.shields.io/badge/Langgraph-0.2.53-red)
-
 **Construído com tecnologias de ponta:**
 
 ![LangGraph](https://camo.githubusercontent.com/d273ec121cc2843903e540e71adbf7bb83bbcf81f30a2c1615c99a258ae5e9d5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c616e6767726170682d3031333234333f7374796c653d666c6174266c6f676f3d4c616e676772617068266c6f676f436f6c6f723d7768697465)
